@@ -193,6 +193,11 @@
   text-decoration: none;
   font-weight: 600;
 }
+@media (max-width: 1250px) {
+  .adviser_card_container {
+    margin-right: 0px;
+  }
+}
 @media (max-width: 1025px) {
   .adviser_card_container {
     margin-right: auto;
@@ -208,23 +213,30 @@
   .mentor_card_container {
     width: 275px;
     margin-left: 98px;
+    gap: 25px;
   }
   .heading_container .desc {
     width: auto;
+  }
+  .adviser_card_container {
+    margin-left: 100px;
+    gap: 25px;
+  }
+  .adviser_heading {
+    margin-left: 93px;
   }
 }
 
 @media (max-width: 376px) {
   .mentor_card_container {
     width: 275px;
-    margin-left: 72px;
+    margin-left: 70px;
   }
   .adviser_card_container {
     margin-left: 71px;
     gap: 25px;
   }
-  .adviser_heading{
+  .adviser_heading {
     margin-left: 65px;
   }
 }
- 
